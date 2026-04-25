@@ -1,1 +1,1 @@
-This is a main branch, writing a docker file
+doker build -d --name pythoncont -p 1111:8501 imagename
