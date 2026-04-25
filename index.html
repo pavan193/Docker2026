@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Delivery App</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#ff5722;
+    color:white;
+    padding:15px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    font-size:28px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+    background:white;
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+    color:gray;
+    margin-bottom:25px;
+}
+
+.hero button{
+    padding:12px 25px;
+    background:#ff5722;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.section{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.card h3{
+    margin:15px 0 10px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>QuickBite</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Offers</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Delicious Food Delivered Fast</h2>
+    <p>Order your favorite meals anytime, anywhere.</p>
+    <button>Order Now</button>
+</section>
+
+<section class="section">
+    <h2>Popular Dishes</h2>
+    <br>
+    <div class="cards">
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Pizza">
+            <h3>Pizza</h3>
+            <p>Cheesy and hot pizza delivered fresh.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Burger">
+            <h3>Burger</h3>
+            <p>Juicy burgers with crispy fries.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>Italian style creamy pasta dishes.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 QuickBite App | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
