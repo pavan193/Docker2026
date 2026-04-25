@@ -1,9 +1,7 @@
-FROM python
-
+FROM python:3.11-slim
+WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
-
-WORKDIR /app
-COPY . /app/
+COPY . .
 EXPOSE 5000
 CMD ["streamlit", "run", "app.py"]
